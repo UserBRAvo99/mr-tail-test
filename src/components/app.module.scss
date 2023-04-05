@@ -1,2 +1,24 @@
-.wrapper {
+// .wrapper {
+// }
+$pre_mobile: 479.98px;
+$pre_tablet: 767.98px;
+$pre_desktop: 1279.98px;
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1280px;
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media screen and (min-width: $pre_tablet) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: $pre_desktop) {
+    max-width: 1280px;
+  }
 }
