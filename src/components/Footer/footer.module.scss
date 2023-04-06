@@ -2,8 +2,59 @@
   background-color: grey;
   padding: 30px 15px;
 }
+.wrapperContacts {
+  display: flex;
+}
 
 .map {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+.listFooterSoc {
+  width: 30px;
+  margin: 0 0 0 auto;
+  padding: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemFooterSoc {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.linkFooterSoc {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: blue;
+    color: tomato;
+  }
+}
+.iconFooterSoc {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  &:hover {
+    fill: currentColor;
+  }
+}
+
+.titleFooter {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 }

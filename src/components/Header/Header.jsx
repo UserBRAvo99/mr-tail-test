@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import headerImg from '../../img/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.webp';
+import headerImg from '../../img/ef97e3b9bd12f4032c31f438f5449b7b.jpeg';
 
 import scss from './header.module.scss';
 
