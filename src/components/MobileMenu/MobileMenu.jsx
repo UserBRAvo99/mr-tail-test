@@ -1,6 +1,6 @@
 import scss from './mobileMenu.module.scss';
 
-import { FaChevronRight } from 'react-icons/fa';
+import { FaChevronRight, FaMapMarkerAlt } from 'react-icons/fa';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
@@ -66,6 +66,15 @@ function MobileMenu({ handleClick }) {
               href="https://www.instagram.com/mr.tail_dogtraining/"
             >
               <FaPhoneAlt className={scss.iconMobileMenuSoc} />
+            </a>
+          </li>
+          <li className={scss.itemMobileMenuSoc}>
+            <a
+              target="blank"
+              className={scss.linkMobileMenuSoc}
+              href="https://goo.gl/maps/jzektQLu4WWmiyoc7"
+            >
+              <FaMapMarkerAlt className={scss.iconMobileMenuSoc} />
             </a>
           </li>
         </ul>

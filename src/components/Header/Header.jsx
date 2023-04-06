@@ -21,6 +21,10 @@ function Header() {
       <header className={scss.header}>
         <img src={headerImg} alt="" className={scss.headerImg} />
         <div className={scss.wrapper}>
+          <div className={scss.titleBlock}>
+            <h1 className={scss.title}>Mr.Tail</h1>
+            <p className={scss.paragraph}>Кінологічна спільнота</p>
+          </div>
           <IoPaw className={scss.logoPaw} />
           <button className={scss.btnOpenMenu} onClick={handlerBtnOpenMenu}>
             <FaChevronLeft className={scss.openMenu} />

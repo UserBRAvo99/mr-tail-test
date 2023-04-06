@@ -12,6 +12,23 @@
   margin-bottom: 60px;
 }
 
+.titleBlock {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.title {
+  margin: 0 0 20px 0;
+  font-size: 40px;
+}
+.paragraph {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
 .wrapper {
   display: flex;
   width: 100%;
