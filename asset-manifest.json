@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mr-tail-test/static/css/main.14a061ee.css",
-    "main.js": "/mr-tail-test/static/js/main.d38a33e0.js",
+    "main.css": "/mr-tail-test/static/css/main.17e38d46.css",
+    "main.js": "/mr-tail-test/static/js/main.90e7e0ca.js",
     "static/media/dog.png": "/mr-tail-test/static/media/dog.b171cb7799c3b4ecb117.png",
     "static/media/Olenka.jpg": "/mr-tail-test/static/media/Olenka.d899ec93af1f740c0c2c.jpg",
     "static/media/chinese-dog-breeds-4797219-hero-webp": "/mr-tail-test/static/media/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.af9a78d2e51165665040.webp",
     "index.html": "/mr-tail-test/index.html",
-    "main.14a061ee.css.map": "/mr-tail-test/static/css/main.14a061ee.css.map",
-    "main.d38a33e0.js.map": "/mr-tail-test/static/js/main.d38a33e0.js.map"
+    "main.17e38d46.css.map": "/mr-tail-test/static/css/main.17e38d46.css.map",
+    "main.90e7e0ca.js.map": "/mr-tail-test/static/js/main.90e7e0ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.14a061ee.css",
-    "static/js/main.d38a33e0.js"
+    "static/css/main.17e38d46.css",
+    "static/js/main.90e7e0ca.js"
   ]
 }
