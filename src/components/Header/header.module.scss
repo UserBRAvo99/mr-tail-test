@@ -1,7 +1,35 @@
 .header {
   display: block;
   width: 100%;
-  height: 60px;
-  background-color: aqua;
+}
+
+.headerImg {
+  display: block;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
   margin-bottom: 60px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.btnOpenMenu {
+  position: absolute;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 10px;
+  top: 0;
+  right: 0;
+}
+
+.openMenu {
+  width: 30px;
+  height: 30px;
 }

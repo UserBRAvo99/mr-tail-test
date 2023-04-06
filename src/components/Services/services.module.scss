@@ -1,0 +1,18 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  width: 100%;
+  min-height: 395px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
