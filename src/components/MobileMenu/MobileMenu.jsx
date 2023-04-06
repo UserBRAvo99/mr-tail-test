@@ -29,41 +29,41 @@ function MobileMenu({ handleClick }) {
         </ul>
       </nav>
       <div>
-        <ul className={scss.list}>
-          <li className={scss.item}>
+        <ul className={scss.listMobileMenuSoc}>
+          <li className={scss.itemMobileMenuSoc}>
             <a
               target="blank"
-              className={scss.link}
+              className={scss.linkMobileMenuSoc}
               href="https://www.instagram.com/mr.tail_dogtraining/"
             >
-              <FaTelegramPlane className={scss.icon} />
+              <FaTelegramPlane className={scss.iconMobileMenuSoc} />
             </a>
           </li>
           <li>
             <a
               target="blank"
-              className={scss.link}
+              className={scss.linkMobileMenuSoc}
               href="https://www.instagram.com/mr.tail_dogtraining/"
             >
-              <FaFacebookF className={scss.icon} />
+              <FaFacebookF className={scss.iconMobileMenuSoc} />
             </a>
           </li>
           <li>
             <a
               target="blank"
-              className={scss.link}
+              className={scss.linkMobileMenuSoc}
               href="https://www.instagram.com/mr.tail_dogtraining/"
             >
-              <FaInstagram className={scss.icon} />
+              <FaInstagram className={scss.iconMobileMenuSoc} />
             </a>
           </li>
           <li>
             <a
               target="blank"
-              className={scss.link}
+              className={scss.linkMobileMenuSoc}
               href="https://www.instagram.com/mr.tail_dogtraining/"
             >
-              <FaPhoneAlt className={scss.icon} />
+              <FaPhoneAlt className={scss.iconMobileMenuSoc} />
             </a>
           </li>
         </ul>

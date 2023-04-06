@@ -3,6 +3,7 @@ import Cynologists from './Cynologists/Cynologists';
 
 import scss from './app.module.scss';
 import Services from './Services';
+import Footer from './Footer';
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
         <Cynologists />
         <Services />
       </div>
+      <Footer />
     </div>
   );
 };

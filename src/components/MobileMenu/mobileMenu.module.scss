@@ -51,14 +51,14 @@
   font-size: 30px;
 }
 
-.item {
+.itemMobileMenuSoc {
   display: flex;
   margin: 0;
   padding: 0;
   justify-content: center;
 }
 
-.list {
+.listMobileMenuSoc {
   margin: 0 auto;
   padding: 15px;
   list-style: none;
@@ -66,7 +66,7 @@
   justify-content: space-around;
 }
 
-.link {
+.linkMobileMenuSoc {
   display: flex;
   width: 40px;
   height: 40px;
@@ -80,7 +80,7 @@
     color: tomato;
   }
 }
-.icon {
+.iconMobileMenuSoc {
   width: 30px;
   height: 30px;
   fill: currentColor;
