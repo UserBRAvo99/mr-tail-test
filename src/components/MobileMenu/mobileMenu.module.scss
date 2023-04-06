@@ -5,12 +5,11 @@
   height: 100vh;
   z-index: 100;
   background-color: white;
-  padding: 60px 0 20px 0;
+  padding: 60px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-// body.wrapperMobileMenu {
-//   height: 100vh;
-//   overflow: hidden;
-// }
 
 .btnMobileMenu {
   position: absolute;
@@ -33,6 +32,60 @@
   margin: 0;
   padding: 0;
 }
+
+.navBlock {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.itemMobileMenu {
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
 .linkMobileMenu {
   text-decoration: none;
+  font-size: 30px;
+}
+
+.item {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.list {
+  margin: 0 auto;
+  padding: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: blue;
+    color: tomato;
+  }
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+  &:hover {
+    fill: currentColor;
+  }
 }
