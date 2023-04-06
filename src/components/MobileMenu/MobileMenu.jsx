@@ -5,12 +5,14 @@ import { FaTelegramPlane } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaPhoneAlt } from 'react-icons/fa';
+import { IoPaw } from 'react-icons/io5';
 
 function MobileMenu({ handleClick }) {
   document.getElementsByTagName('body')[0].style.overflow = 'hidden';
 
   return (
     <div className={scss.wrapperMobileMenu}>
+      <IoPaw className={scss.logoPaw} />
       <button onClick={handleClick} className={scss.btnMobileMenu}>
         <FaChevronRight className={scss.closeMenu} />
       </button>
